@@ -1,0 +1,82 @@
+.project-container{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+width: 75%;
+
+    margin-left:250px;
+    height: auto; 
+}
+
+
+ /* .carousel .project{
+    text-align: center;
+    align-items: center;
+    text-align: left;
+ } */
+ /* ================== CAROUSEL================== */
+ .carousel-root.project .slide{
+    width: 250px;
+    height: 300px;
+    background-color: var(--color-bg-div);
+    border-radius: 50px 0;
+    border: 5px solid var(--color-border);
+    backdrop-filter: blur(4px);
+    padding-top: 3rem;
+    text-align: left;
+    padding-left: 1rem;
+ }
+.project-slide{
+    display: flex;
+    gap:1rem;
+}
+ .carousel-root.project button.control-arrow {
+  
+    border-radius: 60px 0 60px 0;
+}
+
+.project-text{
+    width: 70%;
+}
+.project-img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 20px;
+    background: #000;
+}
+.project-img .image{
+    width: fit-content;
+    height: 100%;
+    border-radius: 20px;
+}
+
+  
+
+/* ===================MEDIA QUERIES (MEDIUM DEVICES)========== */
+
+@media screen and (max-width:1024px) {
+     .carousel-root.project .slide{
+    width:200px;
+    height: max-content;
+
+ }
+ .project-slide{
+ gap: 0;
+ margin: 20px 0;
+}
+  
+}
+
+/* ==================== MEDIA QUERIES (SMALL DEVICES)==============*/
+
+@media screen and (max-width:600px) {
+       .carousel-root.project .slide{
+    width:150px;
+    height: max-content;
+
+ }
+ .project-slide{
+ gap: 0;
+ margin: 10px;
+}
+}

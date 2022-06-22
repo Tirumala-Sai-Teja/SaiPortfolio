@@ -1,0 +1,154 @@
+.about_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+  
+    margin-left:250px;
+    height: auto; 
+}
+.field{
+     margin: 15px 15px;
+    display:flex;
+
+    /* background-color: var(--color-border); */
+    /* padding: 0.6rem 0rem; */
+    /* border-radius: 2rem; */
+    width: 40rem;
+}
+.field>.heading{
+    width: 45%;
+    text-align: right;
+    background-color: var(--color-border);
+    padding: 0.6rem 0rem;
+        /* border-radius: 0 2rem; */
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    padding-right: 10px;
+}
+.field>.gap{
+    width: 40px;
+    background-color:var(--color-bg);
+}
+.field> .details{
+     background-color: var(--color-border);
+       padding: 0.6rem 0rem;
+        /* border-radius: 0 2rem; */
+        border-bottom-right-radius: 2rem;
+        border-top-right-radius: 2rem;
+        width:70%;
+        padding-left: 10%;
+}
+/* ==================== CAROUSEL============================= */
+.main-slide{
+    padding-top: 30px;
+}
+/* .carosel .slider-wrapper{
+    width: 50%;
+    height: 150px;
+} */
+.carousel .thumb{
+    width: 5%;
+    height: 70px;
+}
+ .carousel{
+    text-align: center;
+    align-items: center;
+ }
+ .slide{
+    width: 250px;
+    height: 400px;
+    background-color: var(--color-bg-div);
+    align-items: center;
+    border-radius: 20px;
+    border: 5px solid var(--color-border);
+    backdrop-filter: blur(4px);
+    padding-top: 3rem;
+ }
+.slide .course{
+    /* margin-top: 2rem; */
+
+    position: relative;
+    z-index: 5;
+}
+.slide .course-name{
+    color: #C6B6F4;
+    margin: 0;
+}
+.slide .background{
+    z-index: -1;
+width: 35rem;
+height: 15rem;
+
+    background: var(--color-border);
+    margin: 2rem 5rem;
+
+/* filter: blur(4px); */
+}
+
+button.control-arrow {
+    width: 5rem;
+    border-radius: 20px;
+}
+
+/* ===================MEDIA QUERIES (MEDIUM DEVICES)========== */
+
+@media screen and (max-width:1024px) {
+
+.about_container{
+       height: auto;
+      
+        overflow: hidden;
+}
+.field{
+     margin: 15px 15px;
+    display:flex;
+
+    /* background-color: var(--color-border); */
+    /* padding: 0.6rem 0rem; */
+    /* border-radius: 2rem; */
+    width: 35rem;
+}
+.slide
+{ 
+width: 180px;
+height: 350px;
+}
+.slide .background{
+    width: 28rem;
+     margin: 1.5rem 2rem;
+     height: 12rem;
+}
+}
+
+/* ===================MEDIA QUERIES (SMALL DEVICES)========== */
+
+@media screen and (max-width:600px) {
+
+.about_container{
+       height: auto;
+      
+        overflow: hidden;
+}
+.field{
+     margin: 15px 15px;
+    display:flex;
+    width: 25rem;
+
+}
+.slide
+{ 
+width: 130px;
+height: 300px;
+}
+.slide .background{
+    width: 23rem;
+     margin: 1.5rem 0.5rem;
+     height: 9rem;
+}
+.field> .details{
+     padding-left: 10px;
+}
+
+} 
+

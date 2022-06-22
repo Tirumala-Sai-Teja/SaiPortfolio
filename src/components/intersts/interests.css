@@ -1,0 +1,80 @@
+.interest-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+width: 75%;
+
+    margin-left:250px;
+    height: auto; 
+}
+.sub-container{
+    display: flex;
+    gap:3rem;
+    margin: 0.5rem 20rem;
+    position: relative;
+}
+.interest{
+    width: 275px;
+    min-height: 430px;
+    background:var(--color-bg-div);
+    border: 5px solid var(--color-border);
+    border-radius: 0 0 40px 40px;
+}
+.interest img{
+    height: 10rem;
+    border-bottom: 5px solid var(--color-border);
+}
+.content{
+    margin:10px auto auto 10px;
+   
+}
+.content p{
+    font-size: 1rem;
+}
+.content .links{
+    font-size: small;
+    color: var(--color-primary);
+    margin-left: 8rem;
+}
+.content .subtext{
+    color: var(--color-primary);
+    margin-left: 2rem;
+}
+.content .icons{
+    font-size: 5px;
+    /* color: var(--color-border); */
+}
+
+/* ===================MEDIA QUERIES (MEDIUM DEVICES)========== */
+@media screen and (max-width:1024px) {
+    .sub-container{
+    display: flex;
+    gap:3rem;
+    margin: 0.3rem 1rem;
+
+}
+.interest{
+    width: 50%;
+    height: auto;
+   
+}
+.content .links{
+    margin-left: 3rem;
+}
+}
+/* ===================MEDIA QUERIES (SMALL DEVICES)========== */
+@media screen and (max-width:600px) {
+        .sub-container{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    margin: 0.3rem 1rem;
+
+}
+.interest{
+    width: 40vh;
+    height: auto;
+   
+
+}
+}
