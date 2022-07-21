@@ -17,10 +17,10 @@
     width: 40rem;
 }
 .field>.heading{
-    width: 45%;
+    width: 18rem;
     text-align: right;
     background-color: var(--color-border);
-    padding: 0.6rem 0rem;
+    padding: 0.6rem 10px 0.6rem 0;
         /* border-radius: 0 2rem; */
     border-bottom-left-radius: 2rem;
     border-top-left-radius: 2rem;
@@ -32,12 +32,12 @@
 }
 .field> .details{
      background-color: var(--color-border);
-       padding: 0.6rem 0rem;
+       padding: 0.6rem 0 0.6rem 10px;
         /* border-radius: 0 2rem; */
         border-bottom-right-radius: 2rem;
         border-top-right-radius: 2rem;
         width:70%;
-        padding-left: 10%;
+        /* padding-left: 10%; */
 }
 /* ==================== CAROUSEL============================= */
 .main-slide{
@@ -109,6 +109,7 @@ button.control-arrow {
     /* border-radius: 2rem; */
     width: 35rem;
 }
+
 .slide
 { 
 width: 180px;
@@ -130,24 +131,37 @@ height: 350px;
       
         overflow: hidden;
 }
-.field{
-     margin: 15px 15px;
-    display:flex;
-    width: 25rem;
 
+.field{
+     margin: 15px 0px;
+     
+    display:flex;
+    width: 20rem;
+
+}
+.field>.heading{
+padding-right: 5px;
+/* border-bottom-left-radius: 90px;
+border-top-left-radius: 90px; */
 }
 .slide
 { 
-width: 130px;
-height: 300px;
+width: 110px;
+height: 320px;
 }
 .slide .background{
-    width: 23rem;
+    width: 19rem;
      margin: 1.5rem 0.5rem;
      height: 9rem;
 }
 .field> .details{
-     padding-left: 10px;
+     padding-left: 5px;
+        /* border-bottom-right-radius: 60px;
+        border-top-right-radius: 60px; */
+}
+.field>.gap{
+    width: 20px;
+
 }
 
 } 

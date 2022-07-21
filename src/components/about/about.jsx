@@ -19,20 +19,20 @@ const About = () => {
         <br />
         <div className="field">
           <div className="heading">
-            <h4 className="details">DOB</h4>
+            <p className="details">DOB</p>
           </div>
           <div className="gap"></div>
           <div className="details">
-            <h4>28-07-2001</h4>
+            <p>28-07-2001</p>
           </div>
         </div>
         <div className="field">
           <div className="heading">
-            <h4 className="details">Full Name</h4>
+            <p className="details">Full Name</p>
           </div>
           <div className="gap"></div>
           <div className="details">
-            <h4>Kapu Tirumala Sai Teja</h4>
+            <p>Kapu Tirumala Sai Teja</p>
           </div>
         </div>
         <Carousel className="main-slide">

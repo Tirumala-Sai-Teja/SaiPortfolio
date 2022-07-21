@@ -29,6 +29,7 @@ width: 75%;
 .project-slide{
     display: flex;
     gap:1rem;
+    text-align: left;
 }
  .carousel-root.project button.control-arrow {
   
@@ -36,13 +37,15 @@ width: 75%;
 }
 
 .project-text{
-    width: 70%;
+    /* width: 70%; */
+    flex: 1;
 }
 .project-img{
     width: 10rem;
     height: 10rem;
     border-radius: 20px;
     background: #000;
+    margin-right: 10px;
 }
 .project-img .image{
     width: fit-content;
@@ -67,16 +70,30 @@ width: 75%;
   
 }
 
+
 /* ==================== MEDIA QUERIES (SMALL DEVICES)==============*/
 
 @media screen and (max-width:600px) {
        .carousel-root.project .slide{
-    width:150px;
-    height: max-content;
+    width:120px;
+    /* height: max-content; */
+    height: 500px;
+   
 
  }
  .project-slide{
  gap: 0;
  margin: 10px;
+ display: flex;
+ flex-direction: column;
+ gap:40px;
+ text-align: center;
 }
+/* .project-text{
+    width: ;
+} */
+.project-img{
+margin: auto;
+}
+
 }

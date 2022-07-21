@@ -7,17 +7,22 @@ width: 75%;
     margin-left:250px;
     height: auto; 
 }
-
+.leftside{
+ margin-right: 400px;
+ background-color: var(--color-bg-div);
+ width: 400px;
+height: 236px;
+ border: 5px solid var(--color-border);
+ border-radius: 30px;
+ padding: 10px;
+}
 .left{
  /* margin:0 auto auto 12rem; */
- margin-right: 50vh;
- background-color: var(--color-bg-div);
- min-width: 400px;
- min-height: 236px;
- border: 5px solid var(--color-border);
-  border-radius: 30px;
-  padding: 10px;
-  position: relative;
+width: 350px;
+/* background-color: aliceblue; */
+ 
+ position: relative;
+ /* margin-right: 50px; */
 }
 .left ul{
     display: flex;
@@ -28,14 +33,65 @@ width: 75%;
     display: flex;
     gap: 10px;
 }
+.rating{
+ display:flex;
+ gap: 10px;
+ font-size:x-small;
+ color: var(--color-primary);
+ width: 30%;
+  
+}
+.left .rating{
+   
+    margin-top: 10px;
+    margin-right: 7rem;
+    margin-left: auto;
+}
+.inner-right  .rating{
+    margin-left: 3rem;
+    margin-right: auto;
+    padding: 5px;
+    /* font-size: large; */
+  
+}
+.right{
+    width: 400px;
+     background-color:var(--color-bg-div);
+      border: 5px solid var(--color-border);
+         border-radius: 30px;
+     min-height: 236px;
+      margin-top: -5rem;
+      margin-left: 200px;
 
-.inner-right ul {
- /* margin:-5rem auto 20rem auto; */
+}
+.inner-right{
+    margin-left:35px;
+    width: 350px;
+    padding: 10px;
+   
+}
+.right ul{
+      display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.right ul li{
+    display: flex;
+    gap:10px;
+}
+.right .right-gap{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* .inner-right ul {
+// margin:-5rem auto 20rem auto;
  margin-top: -5rem;
- margin-left: 12rem;
+ margin-left: 200px;
  padding: 10px;
  background-color:var(--color-bg-div);
-min-width: 400px;
+//min-width: 400px;
+width: 400px;
  min-height: 236px;
   border: 5px solid var(--color-border);
    border-radius: 30px;
@@ -44,29 +100,8 @@ min-width: 400px;
    flex-direction: column;
     gap: 1rem;
     position: relative;
-}
-.right .right-gap{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.rating{
- display:flex;
-    gap: 10px;
-    font-size: x-small;
-    color: var(--color-primary);
-  
-}
-.left .rating{
-   
-      margin-top: 10px;
-    margin-right: 7rem;
-    margin-left: auto;
-}
-.right  .rating{
-    margin-left: 7rem;
-    margin-right: auto;
-  
-}
+} */
+
 /* ===================MEDIA QUERIES (MEDIUM DEVICES)========== */
 
 @media screen and (max-width:1024px) {
@@ -76,38 +111,57 @@ min-width: 400px;
       
         overflow: hidden;
 }
-.left{
-   max-width: 65vh;
-    margin-left: 2rem;
-    margin-right: auto;
+.leftside{
+   max-width: 400px;
+    margin-left: 200px;
+    margin-right: 300px;
 }
-.right ul{
-     width: 60%;
-    margin-right: 2rem;
-    margin-left: auto;
-    margin-top: 2rem;
+.right {
+    width: 400px;
+    margin-right: 200px;
+    margin-left: 400px;
+    margin-top: 30px;
 }
 
 }
 
 /* ===================MEDIA QUERIES (SMALL DEVICES)========== */
-
+/* need to do some modifications */
 @media screen and (max-width:600px) {
 
-.skills_container{
+.container.skills_container{
        height: auto;
       
         overflow: hidden;
+        margin: 10px;
 }
-.left{
-   min-width:max-content;
-     margin: 10px 10px;
+.leftside{
+max-width: 320px;
+   margin: 10px;
 }
-.right ul{
-      min-width:max-content;
 
-    margin: 20px 20px;
+.right {
+  max-width: 320px;
+    margin:10px; 
+    /* margin-top: 10px; */
+    /* position: relative; */
+     /* min-width: 200px; */
 }
+.inner-right{
+width: 100%;
+ margin: 0;
+ margin-right: 20px;
+ /* background: #000;  */
+ position: relative;
+} 
+
+.inner-right .rating {
+    margin-left: 10px;
+}
+/* .inner-right ul{
+    margin-top: 0;
+    margin: 0;
+} */
 } 
 
 

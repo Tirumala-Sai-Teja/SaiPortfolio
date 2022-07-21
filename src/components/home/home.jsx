@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <header>
       <div className="container header_container">
+        <br />
         <h5>WHO AM I </h5>
         <h1>Sai Teja</h1>
-        <br />
         <div className="text_container">
           <p className="para">
             If you are looking for a developer then you are landed at the right
@@ -20,17 +20,18 @@ const Header = () => {
             Also I have done some certifications on SQL and python from
             hackerrank. I generally participate in codeing events often. I also
             have the relevant knowledge on the Data Structures and Algorithms.
+            <CTA />
           </p>
 
           {/* <HeaderSocials /> */}
+
+          {/* <a href="#contact" className="scroll_down">
+          Scroll Down
+        </a> */}
           <div className="me">
             <img id="idme" src={ME} alt="me" />
           </div>
         </div>
-        <CTA />
-        {/* <a href="#contact" className="scroll_down">
-          Scroll Down
-        </a> */}
       </div>
     </header>
   );

@@ -8,81 +8,153 @@ const Skills = () => {
       <div className="container skills-container">
         <h1>Skills</h1>
         <br />
-
-        <div className="left">
-          <div className="inner-left">
+        <div className="leftside">
+          <div className="left">
+            <div className="inner-left">
+              <ul>
+                <li>
+                  <span>
+                    <BsPatchCheckFill />
+                  </span>
+                  Python
+                  <span className="rating">
+                    <BsCircleFill />
+                    <BsCircleFill />
+                    <BsCircleFill />
+                    <BsCircleFill />
+                    <BsCircle />
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <BsPatchCheckFill />
+                  </span>
+                  C++
+                  <span className="rating">
+                    <BsCircleFill />
+                    <BsCircleFill />
+                    <BsCircleFill />
+                    <BsCircle />
+                    <BsCircle />
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <BsPatchCheckFill />
+                  </span>
+                  Java
+                  <span className="rating">
+                    <BsCircleFill />
+                    <BsCircleFill />
+                    <BsCircleFill />
+                    <BsCircleFill />
+                    <BsCircle />
+                  </span>
+                </li>
+                <li>
+                  {" "}
+                  <span>
+                    <BsPatchCheckFill />
+                  </span>{" "}
+                  Java Script
+                  <span className="rating">
+                    <BsCircleFill />
+                    <BsCircleFill />
+                    <BsCircleFill />
+                    <BsCircle />
+                    <BsCircle />
+                  </span>
+                </li>
+                <li>
+                  {" "}
+                  <span>
+                    <BsPatchCheckFill />
+                  </span>
+                  SQL
+                  <span className="rating">
+                    <BsCircleFill />
+                    <BsCircleFill />
+                    <BsCircleFill />
+                    <BsCircleFill />
+                    <BsCircle />
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="right">
+          <div className="inner-right">
             <ul>
               <li>
-                <span>
-                  <BsPatchCheckFill />
-                </span>
-                Python
                 <span className="rating">
-                  <BsCircleFill />
-                  <BsCircleFill />
-                  <BsCircleFill />
-                  <BsCircleFill />
                   <BsCircle />
+                  <BsCircleFill />
+                  <BsCircleFill />
+                  <BsCircleFill />
+                  <BsCircleFill />
+                </span>
+                HTML
+                <span className="right-gap">
+                  <BsPatchCheckFill />
                 </span>
               </li>
               <li>
-                <span>
-                  <BsPatchCheckFill />
-                </span>
-                C++
                 <span className="rating">
-                  <BsCircleFill />
-                  <BsCircleFill />
-                  <BsCircleFill />
                   <BsCircle />
-                  <BsCircle />
+                  <BsCircleFill />
+                  <BsCircleFill />
+                  <BsCircleFill />
+                  <BsCircleFill />
+                </span>
+                CSS
+                <span className="right-gap">
+                  <BsPatchCheckFill />
                 </span>
               </li>
               <li>
-                <span>
-                  <BsPatchCheckFill />
-                </span>
-                Java
                 <span className="rating">
-                  <BsCircleFill />
-                  <BsCircleFill />
-                  <BsCircleFill />
-                  <BsCircleFill />
                   <BsCircle />
+                  <BsCircle />
+                  <BsCircleFill />
+                  <BsCircleFill />
+                  <BsCircleFill />
+                </span>
+                React JS
+                <span className="right-gap">
+                  <BsPatchCheckFill />
                 </span>
               </li>
               <li>
-                {" "}
-                <span>
-                  <BsPatchCheckFill />
-                </span>{" "}
-                Java Script
                 <span className="rating">
-                  <BsCircleFill />
-                  <BsCircleFill />
-                  <BsCircleFill />
                   <BsCircle />
                   <BsCircle />
+                  <BsCircle />
+                  <BsCircleFill />
+                  <BsCircleFill />
+                </span>
+                React Native
+                <span className="right-gap">
+                  <BsPatchCheckFill />
                 </span>
               </li>
               <li>
-                {" "}
-                <span>
-                  <BsPatchCheckFill />
-                </span>
-                SQL
                 <span className="rating">
-                  <BsCircleFill />
-                  <BsCircleFill />
-                  <BsCircleFill />
-                  <BsCircleFill />
                   <BsCircle />
+                  <BsCircleFill />
+                  <BsCircleFill />
+                  <BsCircleFill />
+                  <BsCircleFill />
+                </span>
+                Data Structures
+                <span className="right-gap">
+                  <BsPatchCheckFill />
                 </span>
               </li>
             </ul>
           </div>
         </div>
-        <div className="right">
+        {/* <div className="right">
           <div className="inner-right">
             <ul>
               <li
@@ -171,7 +243,7 @@ const Skills = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
